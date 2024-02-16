@@ -10,7 +10,7 @@ if not vim.loop.fs_stat(lazypath) then
   })
 end
 vim.api.nvim_create_autocmd("VimEnter", {
-  command = "set nornu nonu | Neotree toggle",
+  command = "set rnu nu | Neotree toggle",
 })
 vim.opt.rtp:prepend(lazypath)
 
