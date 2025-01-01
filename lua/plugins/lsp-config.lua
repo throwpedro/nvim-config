@@ -17,7 +17,7 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require('lspconfig')
-      lspconfig.ts_ls.setup({})
+      lspconfig.ts_ls.setup({ filetypes = { "javascript", "typescript", "typescriptreact", "typescript.tsx" } })
       lspconfig.gopls.setup({})
       lspconfig.lua_ls.setup({})
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
