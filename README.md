@@ -1,1 +1,2 @@
-Dead - I changed to [LazyVim](https://www.lazyvim.org/)
+# Abandoned
+I changed to [LazyVim](https://www.lazyvim.org/)
